@@ -1,0 +1,67 @@
+/*
+ * Legal Disclaimer for Web licence
+ *
+ * Licence to use self-hosted webfonts for displaying dynamic text on specified website domains. Our package includes WOFF and WOFF2 font formats.
+ *
+ * Should the license page views limit be exceeded the license holder will be required to contact Lineto.com for an upgrade.
+ *
+ * It is strictly prohibited to rename the font and to download or use these fonts in any other media.
+ *
+ * These Web fonts are licensed exclusively for the use on the following domain(s) and their subdomains:
+ *
+ * zellic.io (monthly pageviews: <50K)
+ *
+ */
+
+@font-face {
+    font-family: 'Unica 77';
+    src: url('Unica77LLWeb-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Unica 77';
+    src: url('Unica77LLWeb-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Unica 77';
+    src: url('Unica77LLWeb-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Unica 77 Mono';
+    src: url('Unica77MonoLLWeb-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Unica 77 Mono';
+    src: url('Unica77MonoLLWeb-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Recife Text */
+
+@font-face {
+    font-family: 'Recife Text';
+    src: url('RecifeTextWeb-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Recife Text';
+    src: url('RecifeTextWeb-Book.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
