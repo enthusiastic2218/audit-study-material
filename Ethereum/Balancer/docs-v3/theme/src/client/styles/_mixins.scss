@@ -1,0 +1,21 @@
+@import '_variables';
+
+@mixin content_wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: var(--max-content-width);
+
+  @media (min-width: $MQNarrow) {
+    padding: 2rem;
+  }
+  @media (max-width: $MQMobileNarrow) {
+    min-width: calc(100% - 5rem);
+    padding: 1.5rem;
+  }
+}
+
+@mixin dropdown_wrapper {
+  transition: height 0.1s ease-out;
+  overflow: hidden;
+}

@@ -1,0 +1,5 @@
+!/docs/.vuepress
+node_modules/
+package-lock.json
+**/code
+*math.md

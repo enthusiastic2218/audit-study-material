@@ -1,0 +1,35 @@
+{
+  "name": "@balancer-labs/docs-theme",
+  "version": "1.0.0",
+  "description": "Extension of default vuepress theme",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./lib/node/index.js",
+    "./client": "./lib/client/index.js",
+    "./components/*": "./lib/client/components/*",
+    "./layouts/*": "./lib/client/layouts/*",
+    "./styles/*": "./lib/client/styles/*",
+    "./templates/*": "./templates/*",
+    "./lib/*": "./lib/*",
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/node/index.js",
+  "types": "./lib/node/index.d.ts",
+  "files": [
+    "lib",
+    "templates"
+  ],
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json",
+    "clean": "rimraf lib *.tsbuildinfo",
+    "copy": "cpx \"src/**/*.{d.ts,vue,scss}\" lib"
+  },
+  "dependencies": {
+    "@sentry/browser": "^7.17.4",
+    "@vueuse/core": "^9.3.1",
+    "sass": "^1.55.0",
+    "vue": "^3.2.41",
+    "vue-router": "^4.1.6"
+  }
+}
